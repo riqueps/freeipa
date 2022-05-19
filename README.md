@@ -18,7 +18,7 @@ Altere o SElinux para Permissive
 ```
 nano /etc/selinux/config 
 ```
-[selinux.png]
+!(selinux.png)
 Adicione o IP e o hostname no hosts e reinicie
 ```
 nano /etc/hosts
