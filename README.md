@@ -18,12 +18,13 @@ Altere o SElinux para Permissive
 ```
 nano /etc/selinux/config 
 ```
-!(selinux.png)
+![](selinux.png)
+
 Adicione o IP e o hostname no hosts e reinicie
 ```
 nano /etc/hosts
 ```
-[hosts.png]
+![](hosts.png)
 
 Firewall
 ```
@@ -53,4 +54,6 @@ ipa-server-install
 ```
 Responda as perguntas de acordo com as imagem abaixo:
 
-[]
+![](ipa-install-1.png)
+
+![](ipa-install-2.png)
